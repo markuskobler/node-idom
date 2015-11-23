@@ -1,0 +1,30 @@
+{
+  "name": "node-idom",
+  "version": "0.1.0",
+  "description": "incremental dom compatable api for node (outputs text)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony",
+    "test:watch": "mocha --watch --harmony",
+    "test:coverage": "mocha --reporter mocha-istanbul --harmony"
+  },
+  "dependencies": {
+    "espree":"^2.2.4",
+    "source-map":"^0.5.0",
+    "ast-types": "^0.8.11",
+    "magic-string": "^0.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "sinon": "^1.12.2",
+    "istanbul": "^0.3.20",
+    "mocha-istanbul": "^0.2.0",
+    "mocha": "^2.1.0"
+  },
+  "author": "Markus Kobler",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/markuskobler/node-idom" },
+  "bugs": { "url": "https://github.com/markuskobler/node-idom/issues" },
+  "homepage": "https://github.com/markuskobler/node-idom",
+  "keywords":[]
+}
